@@ -7,3 +7,31 @@
   position: fixed;
   width: 100%;
 }
+
+.btn-ftr {
+    height: 55px;
+    width: 262px;
+}
+
+.footerAnchor {
+    text-decoration: none;
+    cursor: pointer;
+    color: #FFFFFF;
+    line-height: 28.8px;
+    font-size: 16;
+    font-weight: 400;
+}
+
+.heading {
+    color: #FFFFFF;
+    opacity: 0.4;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.socialMediaContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    opacity: 0.32;
+  }
