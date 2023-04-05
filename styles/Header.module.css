@@ -1,0 +1,17 @@
+.topNav {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.topNav ul {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    gap: 15px;
+}
+
+.topNav li {
+    font-weight: 600;
+    font-size: 16px;
+}
