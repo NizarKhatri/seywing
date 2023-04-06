@@ -7,7 +7,7 @@ import {
   ButtonGroup,
 } from 'reactstrap';
 
-const Signup = () => {
+const SignupComponent = () => {
   const [step, setStep] = useState(1);
   const [selectedValue, setSelectedValue] = useState('');
   const [selectedMerchantType, setSelectedMerchantType] = useState('');
@@ -145,4 +145,4 @@ const Signup = () => {
   );
 };
 
-export default Signup;
+export default SignupComponent;

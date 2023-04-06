@@ -2,10 +2,10 @@ import { TABS } from '@/constants/tabs.constant'
 import AuthComponent from '@/src/components/signin/auth'
 import React from 'react'
 
-const Login = () => {
+const Signup = () => {
   return (
-    <AuthComponent selectedTab={TABS.login}/>
+    <AuthComponent selectedTab={TABS.signup}/>
   )
 }
 
-export default Login
+export default Signup

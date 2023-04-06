@@ -9,7 +9,7 @@ import {
   Label,
 } from 'reactstrap';
 
-const Login = () => {
+const LoginComponent = () => {
     const [showPassword, setShowPassword] = useState(false);
 
     const togglePassword = () => {
@@ -40,4 +40,4 @@ const Login = () => {
   );
 };
 
-export default Login;
+export default LoginComponent;

@@ -37,7 +37,9 @@ export const Header = () => {
                 </Link>
               </li>
               <li>
+              <Link href="/signup">
                 <Button>Register</Button>
+              </Link>
               </li>
             </ul>
           </Col>

@@ -8,17 +8,16 @@ import {
   NavItem,
   NavLink,
 } from 'reactstrap';
-import Login from './login';
-import Signup from './signup';
+import { TABS } from '../../../constants/tabs.constant';
+import LoginComponent from './login';
+import SignupComponent from './signup';
 
-const AuthComponent = () => {
-  const [activeTab, setActiveTab] = useState('tab1');
+const AuthComponent = ({selectedTab}) => {
+  const [activeTab, setActiveTab] = useState(selectedTab);
 
   const toggle = (tab) => {
     if (activeTab !== tab) setActiveTab(tab);
   };
-
- 
 
   return (
     <div className={styles.container}>
@@ -59,9 +58,9 @@ const AuthComponent = () => {
         <Nav tabs className={styles.nav}>
           <NavItem>
             <NavLink
-              className={`${styles.navLink} ${activeTab === 'tab1' ? `${styles.active}` : ''}`}
+              className={`${styles.navLink} ${activeTab === TABS.login ? `${styles.active}` : ''}`}
               onClick={() => {
-                toggle('tab1');
+                toggle(TABS.login);
               }}
             >
               LOGIN
@@ -69,9 +68,9 @@ const AuthComponent = () => {
           </NavItem>
           <NavItem>
             <NavLink
-              className={`${styles.navLink} ${activeTab === 'tab2' ? `${styles.active}` : ''}`}
+              className={`${styles.navLink} ${activeTab === TABS.signup ? `${styles.active}` : ''}`}
               onClick={() => {
-                toggle('tab2');
+                toggle(TABS.signup);
               }}
             >
               SIGN UP
@@ -79,11 +78,11 @@ const AuthComponent = () => {
           </NavItem>
         </Nav>
         <TabContent activeTab={activeTab}>
-          <TabPane tabId="tab1">
-            <Login/>
+          <TabPane tabId={TABS.login}>
+            <LoginComponent/>
           </TabPane>
-          <TabPane tabId="tab2">
-            <Signup />
+          <TabPane tabId={TABS.signup}>
+            <SignupComponent />
           </TabPane>
         </TabContent>
       </div>
