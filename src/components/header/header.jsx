@@ -17,7 +17,7 @@ export const Header = () => {
         <Row>
           <Col md={3}>
             <a href="./" className={styles.logo}>
-              <Image alt="logo" src={'/images/SeywingLogo.png'} width={134} height={18} />
+              <Image alt="logo" src={'/images/seywing-logo.png'} width={134} height={18} />
             </a>
           </Col>
           <Col md={6}>
@@ -32,7 +32,9 @@ export const Header = () => {
           <Col md={3}>
             <ul className={styles.buttonList}>
               <li>
-                <Button>Login</Button>
+                <Link href="/login">
+                  <Button>Login</Button>
+                </Link>
               </li>
               <li>
                 <Button>Register</Button>

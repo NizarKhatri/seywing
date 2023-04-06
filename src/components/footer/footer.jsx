@@ -10,7 +10,7 @@ export const Footer = () => {
         <Row>
         <Col md={3}>
         <div className={styles.logoSection}>
-          <Image alt="logo" src={'/images/SeywingFooter.png'} width={167} height={22} />
+          <Image alt="logo" src={'/images/seywing-footer.png'} width={167} height={22} />
           <div>
             <p>Making the world a better place through constructing elegant hierarchies</p>
           </div>
