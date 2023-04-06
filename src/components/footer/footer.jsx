@@ -36,7 +36,7 @@ export const Footer = () => {
           <Col md={3} className={styles.paddingLeft}>
             <h5 className={styles.headingFooterColumn}>Support</h5>
             <ul className={styles.footerNaviagtion}>
-              <li><a href="#">FAQ's</a></li>
+              <li><a href="#">FAQs</a></li>
               <li><a href="#">Contact Us</a></li>
               <li><a href="#">Term of Use</a></li>
               <li><a href="#">Term of Sales</a></li>
