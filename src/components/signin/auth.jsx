@@ -1,16 +1,24 @@
 import React, { useState } from 'react';
-import styles from '../../../styles/Signin.module.css';
-import Image from 'next/image';
+import styles from '../../../styles/auth.module.css';
 import { AiFillCheckCircle } from 'react-icons/ai';
-import { FaEye } from 'react-icons/fa';
-import { TabContent, TabPane, Nav, NavItem, NavLink, Input, InputGroup, InputGroupAddon, InputGroupText, Button, Label } from 'reactstrap';
+import {
+  TabContent,
+  TabPane,
+  Nav,
+  NavItem,
+  NavLink,
+} from 'reactstrap';
+import Login from './login';
+import Signup from './signup';
 
-const Signin = () => {
+const AuthComponent = () => {
   const [activeTab, setActiveTab] = useState('tab1');
 
   const toggle = (tab) => {
     if (activeTab !== tab) setActiveTab(tab);
   };
+
+ 
 
   return (
     <div className={styles.container}>
@@ -72,13 +80,10 @@ const Signin = () => {
         </Nav>
         <TabContent activeTab={activeTab}>
           <TabPane tabId="tab1">
-          <Input type="email" name="email" placeholder="Email" className={styles.inputs} />
-          <Input type="password" name="password" placeholder="Password" className={styles.inputs}/>
-          <Label className={styles.forgotPassword}><a>Forgot Password?</a></Label>
-          <Button color="primary" className={styles.submit}>Submit</Button>
+            <Login/>
           </TabPane>
           <TabPane tabId="tab2">
-            <p>Tab 2 content</p>
+            <Signup />
           </TabPane>
         </TabContent>
       </div>
@@ -86,4 +91,4 @@ const Signin = () => {
   );
 };
 
-export default Signin;
+export default AuthComponent;
