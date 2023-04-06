@@ -9,54 +9,67 @@ export const Footer = () => {
       <Container>
         <Row>
         <Col md={3}>
-        <div className="d-grid gap-2 align-items-center">
+        <div className={styles.logoSection}>
           <Image alt="logo" src={'/images/SeywingFooter.png'} width={167} height={22} />
           <div>
-            <p className='m-0'>Making the world a better place through constructing elegant hierarchies</p>
+            <p>Making the world a better place through constructing elegant hierarchies</p>
           </div>
           <div className={styles.socialMediaContainer}>
-            <FaTwitter size={32} color="#FFFFFF" />
-            <FaFacebook size={32} color="#FFFFFF" />
-            <FaInstagram size={32} color="#FFFFFF" />
-            <FaGithub size={32} color="#FFFFFF" />
+            <ul>
+              <li><FaTwitter size={24} color="#FFFFFF" /></li>
+              <li><FaFacebook size={24} color="#FFFFFF" /></li>
+              <li><FaInstagram size={24} color="#FFFFFF" /></li>
+              <li><FaGithub size={24} color="#FFFFFF" /></li>
+            </ul>
         </div>
         </div>
         </Col>
-          <Col md={3}>
-            <h5 className={styles.heading}>Company</h5>
-            <ul className="list-unstyled">
-              <li><a href="#" className={styles.footerAnchor}>About Us</a></li>
-              <li><a href="#" className={styles.footerAnchor}>Pricing</a></li>
-              <li><a href="#" className={styles.footerAnchor}>Blog</a></li>
-              <li><a href="#" className={styles.footerAnchor}>Partners</a></li>
+          <Col md={3} className={styles.companyPadLeft}>
+            <h5 className={styles.headingFooterColumn}>Company</h5>
+            <ul className={styles.footerNaviagtion}>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Pricing</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Partners</a></li>
+            </ul>
+          </Col>
+          <Col md={3} className={styles.paddingLeft}>
+            <h5 className={styles.headingFooterColumn}>Support</h5>
+            <ul className={styles.footerNaviagtion}>
+              <li><a href="#">FAQs</a></li>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">Term of Use</a></li>
+              <li><a href="#">Term of Sales</a></li>
+              <li><a href="#">Privacy</a></li>
             </ul>
           </Col>
           <Col md={3}>
-            <h5 className={styles.heading}>Support</h5>
-            <ul className="list-unstyled">
-              <li><a href="#" className={styles.footerAnchor}>FAQ's</a></li>
-              <li><a href="#" className={styles.footerAnchor}>Contact Us</a></li>
-              <li><a href="#" className={styles.footerAnchor}>Term of Use</a></li>
-              <li><a href="#" className={styles.footerAnchor}>Term of Sales</a></li>
-              <li><a href="#" className={styles.footerAnchor}>Privacy</a></li>
-            </ul>
-          </Col>
-          <Col md={3}>
-          <div className="d-flex align-items-center justify-content-center">
-            <div className="d-flex flex-column align-items-center">
-              <Button outline className={`${styles.btnFtr} me-2 text-wrap text-break`} size='md'>
-                <div className="d-flex align-items-center">
-                <FaGooglePlay size={24} className="me-2" />
-                  Download on Google Play
+          <div className="">
+            <div className={styles.btnAlignment}>
+              <Button outline className={styles.btnFtr}>
+                <div className={styles.downloadBtn}>
+                <FaGooglePlay size={25} className={styles.ftrIcon} />
+                  <span>
+                    Download on
+                    <strong>Google Play</strong>
+                  </span> 
                 </div>
               </Button>
-              <Button outline className={`${styles.btnFtr} me-2 text-wrap text-break mt-3`} size='md'>
-                <div className="d-flex align-items-center">
-                <FaApple size={24} className="me-2" />
-                  Download on App Store
+              <Button outline className={styles.btnFtr} >
+                <div className={styles.downloadBtn}>
+                <FaApple size={30} className={styles.ftrIcon} />
+                  <span>
+                    Download on
+                    <strong>App Store</strong>
+                  </span> 
                 </div>
               </Button>
             </div>
+          </div>
+        </Col>
+        <Col md={12}>
+          <div className={styles.copyright} >
+            <p>© 2020 Dlex, Inc. All rights reserved</p>
           </div>
         </Col>
         </Row>

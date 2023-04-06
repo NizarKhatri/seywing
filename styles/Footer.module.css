@@ -1,37 +1,121 @@
 .footer {
-  background-color: #333;
-  color: #fff;
-  padding: 10px;
-  text-align: center;
-  bottom: 0;
-  position: fixed;
-  width: 100%;
+	padding: 56px 0 46px 0;
+	background: #121127;
 }
 
-.btn-ftr {
-    height: 55px;
-    width: 262px;
+.companyPadLeft {
+	padding: 0 0 0 70px !important;
 }
 
-.footerAnchor {
-    text-decoration: none;
-    cursor: pointer;
-    color: #FFFFFF;
-    line-height: 28.8px;
-    font-size: 16;
-    font-weight: 400;
+.logoSection p {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 180%;
+	color: rgba(255, 255, 255, 0.56);
+	margin: 25px 0;
 }
 
-.heading {
-    color: #FFFFFF;
-    opacity: 0.4;
-    font-size: 14px;
-    font-weight: 600;
+.socialMediaContainer ul {
+	font-size: 0px;
+	display: inline-block;
+	vertical-align: middle;
+	padding: 0;
 }
 
-.socialMediaContainer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    opacity: 0.32;
-  }
+.socialMediaContainer ul li {
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 30px;
+}
+
+.socialMediaContainer ul li.last {
+	margin-right: 0px;
+}
+
+.headingFooterColumn {
+	font-style: normal;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 170%;
+	letter-spacing: 0.8px;
+	text-transform: uppercase;
+	color: rgba(255, 255, 255, 0.4);
+	margin: 0 0 20px;
+}
+
+.footerNaviagtion {
+	list-style: none;
+	padding: 0;
+}
+
+.footerNaviagtion li {
+	padding: 0 0 10px;
+}
+
+.footerNaviagtion li a {
+	text-decoration: none;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 180%;
+	color: #FFFFFF;
+}
+
+.btnAlignment {
+	padding-top: 100px;
+}
+
+.btnFtr {
+	padding: 8px 0px;
+	text-align: center;
+	border: 1px solid #FFFFFF;
+	border-radius: 6px;
+	background: transparent;
+	color: #FFFFFF;
+	width: 260px;
+	margin: 0 0 20px;
+}
+
+.btnFtr .downloadBtn {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	vertical-align: middle;
+}
+
+.downloadBtn .ftrIcon {
+	margin: 0 15px 0 0;
+}
+
+.downloadBtn span {
+	text-align: left;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 13px;
+	line-height: 20px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
+
+.downloadBtn span strong {
+	display: block;
+	font-size: 14px;
+}
+
+.copyright {
+	width: 100%;
+	border-top: 1px solid rgba(255, 255, 255, 0.12);
+	margin: 20px 0 0;
+	text-align: center;
+}
+
+.copyright p {
+	margin: 35px 0 0;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 180%;
+	text-align: center;
+	color: rgba(255, 255, 255, 0.56);
+}
