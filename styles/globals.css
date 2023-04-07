@@ -104,3 +104,27 @@ a {
     color-scheme: dark;
   }
 }
+
+.btnPrimary{
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 18px;
+color: #FFFFFF;
+width: 100%;
+background-color: #F47D31;
+height: 50px;
+border: none;
+border-radius: 15px;
+}
+
+div#__next{
+  background-image: url("../public/images/wave-bg.png");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+#eye {
+  background: none;
+  border: none;
+}

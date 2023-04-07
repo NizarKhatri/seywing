@@ -18,24 +18,26 @@ const LoginComponent = () => {
 
   return (
     <>
-      <Input type="email" placeholder="Email" className={styles.inputs} />
-      <InputGroup>
-        <Input
-          type={showPassword ? 'text' : 'password'}
-          name="password"
-          placeholder="Password"
-          className={styles.inputs}
-        />
-        <InputGroupText className={styles.inputGroupText} onClick={togglePassword}>
-          <Button color="light">{showPassword ? <FaEye /> : <FaEyeSlash />}</Button>
-        </InputGroupText>
-      </InputGroup>
-      <Label className={styles.forgotPassword}>
-        <a>Forgot Password?</a>
-      </Label>
-      <Button color="primary" className={styles.submit}>
-        Login
-      </Button>
+      <div className={styles.wrapForm}>
+        <Input type="email" placeholder="Email"  />
+        <InputGroup className={styles.pasEye}>
+          <Input
+            type={showPassword ? 'text' : 'password'}
+            name="password"
+            placeholder="Password"
+          />
+          <InputGroupText id="eye" className={styles.pasField}>
+            <Button  color="transparent">{showPassword ? <FaEye /> : <FaEyeSlash />}</Button>
+          </InputGroupText>
+        </InputGroup>
+
+        <Label className={styles.forgotPassword}>
+          <a>Forgot Password?</a>
+        </Label>
+        <Button className={styles.btnPrimary}>
+          Login
+        </Button>
+      </div>
     </>
   );
 };
