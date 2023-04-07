@@ -163,7 +163,9 @@
     padding: 0 .5em;
     cursor:pointer;
 }
-
+.select option{
+    font-size: 18px;
+}
 .inputs:nth-child(2) {
 	margin-bottom: 20px;
 }
