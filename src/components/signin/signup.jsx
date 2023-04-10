@@ -35,25 +35,31 @@ const SignupComponent = () => {
     <>
       <div className={styles.steps}>
         <div className={styles.stepTab}>
-          <div>
-            <div
+          <div className='text-center'>
+            {/* <div
               className={`rounded-circle p-2 border ${
                 step === 1 ? 'border-primary text-primary' : 'text-muted'
               }`}
               style={{ height: '50px', width: '50px' }}
             >
               <strong>1</strong>
+            </div> */}
+            <div className={styles.stepCount}>
+              <p>1</p>
             </div>
             <span>Primary</span>
           </div>
-          <div>
-            <div
+          <div className='text-center'>
+            {/* <div
               className={`rounded-circle p-2 border ${
                 step === 2 ? 'border-primary text-primary' : 'text-muted'
               }`}
               style={{ height: '50px', width: '50px' }}
             >
               <strong>2</strong>
+            </div> */}
+            <div className={styles.stepCount}>
+              <p>2</p>
             </div>
             <span>Secondary</span>
           </div>

@@ -24,6 +24,9 @@
     padding: 40px 70px 150px;
     background-color: white;
 }
+.paddFixeNext{
+    padding: 40px 70px 50px;
+}
 
 .leftSide .star {
     position: absolute;
@@ -88,6 +91,8 @@
     color: #074FFE;
     border-bottom: 2px solid blue !important;
 }
+
+
 /* Login Component */
 .wrapForm{
     padding: 40px 0 0;
@@ -142,13 +147,58 @@
     justify-content: space-around;
     vertical-align: middle;
     margin: 30px 0 30px 0;
+    position: relative;
 }
-.stepTab strong{
+.stepTab::before{
+    position: absolute;
+    content: '';
+    bottom: 48px;
+    height: 1px;
+    width: 170px;
+    background: #DEDEDE;
+    z-index: 1;
+}
+.stepTab span{
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 12px;
+    text-transform: capitalize;
+    color: #717171;
+}
+.stepTab .stepCount{
+    color: black;
     display: flex;
     align-items: center;
     justify-content: center;
     vertical-align: middle;
-    width: 100%;
+    border: 1px solid #DEDEDE;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    padding: 15px 20px;
+    margin-right: 0px;
+    border-radius: 30px;
+    margin: 0 0 0 7px;
+    position: relative;
+    z-index: 2;
+    background: white;
+}
+.stepTab .stepCount p{
+    margin-bottom: 0px;
+    font-weight: 500;
+    font-size: 14px;
+    color: #717171;
+}
+
+.stepTabActive .stepCount p{
+    color: #074FFE;
+}
+.stepTabActive span{
+    color: #074FFE;
+}
+.stepTabActive .stepCount{
+    border: 1px solid #074FFE;
 }
 .select {
     height: 50px;
@@ -173,22 +223,6 @@
 .inputs:nth-child(4) {
 	margin-bottom: 20px;
 }
-/* .stepNext input[type=select]{
-    -webkit-appearance:none;
-    -moz-appearance:none;
-    -ms-appearance:none;
-    appearance:none;
-    outline:0;
-    box-shadow:none;
-    border:0!important;
-    background: #5c6664;
-    background-image: none;
-    padding: 0 .5em;
-    cursor:pointer;
-} */
-
-
-
 .inputGroupText {
     background-color: transparent;
     border: none;

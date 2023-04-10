@@ -61,7 +61,7 @@ const AuthComponent = ({selectedTab}) => {
             </div>
           </Col>
           <Col md={5} className={styles.pdZero}>
-            <div className={styles.rightSide}>
+            <div className={`${styles.rightSide}  ${activeTab === TABS.signup ? `${styles.paddFixeNext}` : ''}`} >
               <Nav tabs className={styles.nav}>
                 <NavItem>
                   <NavLink
