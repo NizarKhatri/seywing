@@ -3,9 +3,12 @@ import styles from '../../../styles/auth.module.css';
 import {
   Input,
   Button,
+  InputGroup,
+  InputGroupText,
   Label,
   ButtonGroup,
 } from 'reactstrap';
+
 
 const SignupComponent = () => {
   const [step, setStep] = useState(1);
@@ -30,35 +33,44 @@ const SignupComponent = () => {
   };
   return (
     <>
-      <div className="d-flex justify-content-center align-items-center">
-        <div className="d-flex align-items-center">
-          <div
-            className={`rounded-circle p-2 border ${
-              step === 1 ? 'border-primary text-primary' : 'text-muted'
-            }`}
-            style={{ height: '50px', width: '50px' }}
-          >
-            1
+      <div className={styles.steps}>
+        <div className={styles.stepTab}>
+          <div className='text-center'>
+            {/* <div
+              className={`rounded-circle p-2 border ${
+                step === 1 ? 'border-primary text-primary' : 'text-muted'
+              }`}
+              style={{ height: '50px', width: '50px' }}
+            >
+              <strong>1</strong>
+            </div> */}
+            <div className={styles.stepCount}>
+              <p>1</p>
+            </div>
+            <span>Primary</span>
           </div>
-          <div className="mx-2">
-            <hr className="my-0 bg-primary" style={{ height: '2px', width: '50px' }} />
-          </div>
-          <div
-            className={`rounded-circle p-2 border ${
-              step === 2 ? 'border-primary text-primary' : 'text-muted'
-            }`}
-            style={{ height: '50px', width: '50px' }}
-          >
-            2
+          <div className='text-center'>
+            {/* <div
+              className={`rounded-circle p-2 border ${
+                step === 2 ? 'border-primary text-primary' : 'text-muted'
+              }`}
+              style={{ height: '50px', width: '50px' }}
+            >
+              <strong>2</strong>
+            </div> */}
+            <div className={styles.stepCount}>
+              <p>2</p>
+            </div>
+            <span>Secondary</span>
           </div>
         </div>
         {step === 1 && (
-          <div className="mx-3">
-            <Input type="text" placeholder="First Name" className={styles.inputs} />
-            <Input type="text" placeholder="Last Name" className={styles.inputs} />
-            <Input type="email" placeholder="Email" className={styles.inputs} />
-            <Input type="password" placeholder="Password" className={styles.inputs} />
-            <Button color="primary" className={styles.submit} onClick={handleNextStep}>
+          <div className={styles.wrapFormSup}>
+            <Input type="text" placeholder="First Name" />
+            <Input type="text" placeholder="Last Name" />
+            <Input type="email" placeholder="Email" />
+            <Input type="password" placeholder="Password" />
+            <Button color="primary" className={styles.btnPrimary} onClick={handleNextStep}>
               Next
             </Button>
           </div>
@@ -135,7 +147,7 @@ const SignupComponent = () => {
                 False
               </Button>
             </ButtonGroup>
-            <Button color="primary" className={styles.submit} style={{ marginTop: 20 }}>
+            <Button color="primary" className={styles.btnPrimary} style={{ marginTop: 20 }}>
               Submit
             </Button>
           </div>
