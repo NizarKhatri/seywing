@@ -24,7 +24,7 @@ export const Header = () => {
             <div className={styles.menuWrap}>
               <ul className={styles.menu}>
                 <li><Link href="/" passHref>About Us</Link></li>
-                <li><Link href="/" passHref>Pricing</Link></li>
+                <li><Link href="/pricing" passHref>Pricing</Link></li>
                 <li><Link href="/" passHref>Partner with Us</Link></li>
               </ul>
             </div>
