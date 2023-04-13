@@ -190,8 +190,13 @@
     font-size: 14px;
     color: #717171;
 }
-
-.stepTabActive .stepCount p{
+.stepPrevActive .stepCount{
+    background: #074FFE;
+}
+.stepPrevActive .stepCount p{
+    color: #FFFFFF  ;
+}
+.stepPrevActive span{
     color: #074FFE;
 }
 .stepTabActive span{
