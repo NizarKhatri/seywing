@@ -3,26 +3,26 @@ export const UNIQUE_PLANS = [
     name: "Basic",
     price: "Free",
     isPopular: false,
-    services: "2",
+    services: "02",
     features: [
       {
-        name: "Margis ticidudu........................",
+        name: "Magnis tincidunt sed quisque volutpat urna pretium.",
         isEnabled: true,
       },
       {
-        name: "",
+        name: "Amet elementum odio feugiat vitae morbi aliquam ipsum varius.",
         isEnabled: true,
       },
       {
-        name: "",
+        name: "Magnis tincid",
         isEnabled: false,
       },
       {
-        name: "",
+        name: "Aliquet donec tincidunt scelerisque dui eros egestas semper natoque.",
         isEnabled: false,
       },
       {
-        name: "",
+        name: "Nisi justo molestie morbi faucibus volutpat tincidunt vulputate.",
         isEnabled: false,
       }
     ],
@@ -34,52 +34,52 @@ export const UNIQUE_PLANS = [
     services: "04",
     features: [
       {
-        name: "Margis ticidudu........................",
+        name: "Magnis tincidunt sed quisque volutpat urna pretium.",
         isEnabled: true,
       },
       {
-        name: "",
+        name: "Amet elementum odio feugiat vitae morbi aliquam ipsum varius.",
         isEnabled: true,
       },
       {
-        name: "",
+        name: "Magnis tincid",
         isEnabled: true,
       },
       {
-        name: "",
+        name: "Aliquet donec tincidunt scelerisque dui eros egestas semper natoque.",
         isEnabled: true,
       },
       {
-        name: "",
+        name: "Nisi justo molestie morbi faucibus volutpat tincidunt vulputate.",
         isEnabled: false,
       }
     ],
   },
   {
-    name: "Basic",
-    price: "Free",
+    name: "Premium",
+    price: "$100",
     isPopular: false,
-    services: "2",
+    services: "05",
     features: [
       {
-        name: "Margis ticidudu........................",
+        name: "Magnis tincidunt sed quisque volutpat urna pretium.",
         isEnabled: true,
       },
       {
-        name: "",
+        name: "Amet elementum odio feugiat vitae morbi aliquam ipsum varius.",
         isEnabled: true,
       },
       {
-        name: "",
-        isEnabled: false,
+        name: "Magnis tincid",
+        isEnabled: true,
       },
       {
-        name: "",
-        isEnabled: false,
+        name: "Aliquet donec tincidunt scelerisque dui eros egestas semper natoque.",
+        isEnabled: true,
       },
       {
-        name: "",
-        isEnabled: false,
+        name: "Nisi justo molestie morbi faucibus volutpat tincidunt vulputate.",
+        isEnabled: true,
       }
     ],
   },

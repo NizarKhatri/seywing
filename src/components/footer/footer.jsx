@@ -9,11 +9,9 @@ export const Footer = () => {
       <Container>
         <Row>
         <Col md={3}>
-        <div className={styles.logoSection}>
+        <div className={`${styles.logoSection} ${styles.responsiveFooter}`}>
           <Image alt="logo" src={'/images/seywing-footer.png'} width={167} height={22} />
-          <div>
-            <p>Making the world a better place through constructing elegant hierarchies</p>
-          </div>
+          <p>Making the world a better place through constructing elegant hierarchies</p>
           <div className={styles.socialMediaContainer}>
             <ul>
               <li><FaTwitter size={24} color="#FFFFFF" /></li>
