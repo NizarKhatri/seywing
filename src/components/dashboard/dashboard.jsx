@@ -33,7 +33,7 @@ const DashboardComponent = () => {
       <div className={styles.sectionProfessional}>
         <Communications />
       </div>
-      <div className={styles.location}>
+      <div className={styles.locationDashboard}>
         <Locations />
       </div>
     </>
