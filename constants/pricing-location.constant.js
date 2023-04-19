@@ -1,21 +1,22 @@
-export const PRICING_LOCATION =[ {
+export const PRICING_LOCATION = [
+  {
     image: 'location-pak',
     name: 'Pakistan',
-    isComing: false
-},
-{
+    isComing: false,
+  },
+  {
     image: 'location-uae',
     name: 'UAE',
-    isComing: false
-},
-{
+    isComing: false,
+  },
+  {
     image: 'location-turk',
     name: 'Turkey',
-    isComing: true
-},
-{
+    isComing: true,
+  },
+  {
     image: 'location-turk',
     name: 'Turkey',
-    isComing: true
-}
-]
+    isComing: true,
+  },
+];

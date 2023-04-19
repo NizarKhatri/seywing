@@ -1,58 +1,58 @@
-export const PRICING_CATEGORIES =[ {
+export const PRICING_CATEGORIES = [
+  {
     image: 'cat-grocery',
-    name: 'Grocery'
-},
-{
+    name: 'Grocery',
+  },
+  {
     image: 'cat-restraunt',
-    name: 'Restaurants'
-},
-{
+    name: 'Restaurants',
+  },
+  {
     image: 'cat-entertainment',
-    name: 'Entertainment'
-},
-{
+    name: 'Entertainment',
+  },
+  {
     image: 'cat-fashion',
-    name: 'Fashion & Retail'
-},
-{
+    name: 'Fashion & Retail',
+  },
+  {
     image: 'cat-beauty',
-    name: 'Beauty & Fitness'
-},
-{
+    name: 'Beauty & Fitness',
+  },
+  {
     image: 'cat-devices',
-    name: 'Devices & Electronics'
-},
-{
+    name: 'Devices & Electronics',
+  },
+  {
     image: 'cat-health',
-    name: 'Health & Wellness'
-},
-{
+    name: 'Health & Wellness',
+  },
+  {
     image: 'cat-travel',
-    name: 'Travel'
-},
-{
+    name: 'Travel',
+  },
+  {
     image: 'cat-automotive',
-    name: 'Automotive'
-},
-{
+    name: 'Automotive',
+  },
+  {
     image: 'cat-education',
-    name: 'Education'
-},
-{
+    name: 'Education',
+  },
+  {
     image: 'cat-sports',
-    name: 'Sports'
-},
-{
+    name: 'Sports',
+  },
+  {
     image: 'cat-toys',
-    name: 'Toys'
-},
-{
+    name: 'Toys',
+  },
+  {
     image: 'cat-home',
-    name: 'Home'
-},
-{
+    name: 'Home',
+  },
+  {
     image: 'cat-services',
-    name: 'Services'
-},
-
-]
+    name: 'Services',
+  },
+];

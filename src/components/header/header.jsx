@@ -9,11 +9,11 @@ export const Header = () => {
     <header className={styles.headerstyle}>
     <div className="main-header">
       <Container>
-        <div className={styles.hamburger}>
+        {/* <div className={styles.hamburger}>
           <span></span>
           <span></span>
           <span></span>
-        </div>
+        </div> */}
         <Row>
           <Col md={3}>
             <a href="./" className={styles.logo}>

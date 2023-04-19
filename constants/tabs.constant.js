@@ -1,4 +1,4 @@
 export const TABS = {
-    login: 'login',
-    signup: 'signup'
-}
+  login: 'login',
+  signup: 'signup',
+};
