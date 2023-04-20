@@ -31,12 +31,61 @@ padding:40px 0 40px;
     margin: 50px 0 0;
     border: none;
 }
+.bannerButtonDownload{
+    display: flex;
+    align-items: center;
+	justify-content: flex-start;
+	vertical-align: middle;
+}
+.btnFtr {
+	padding: 8px 0px;
+	text-align: center;
+	border: 1px solid #FFFFFF;
+	border-radius: 6px;
+	background: transparent;
+	color: #FFFFFF;
+	width: 170px;
+	margin: 0 0 20px;
+}
+
+.btnFtr .downloadBtn {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	vertical-align: middle;
+}
+
+.downloadBtn .ftrIcon {
+	margin: 0 15px 0 0;
+}
+
+.downloadBtn span {
+	text-align: left;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 13px;
+	line-height: 20px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
+
+.downloadBtn span strong {
+	display: block;
+	font-size: 14px;
+}
+.googlePlayBtn{
+    background: #074FFE;
+    margin-right: 30px;
+}
+.appleStoreBtn{
+    background: #3C444F;
+}
 .wrapBannaerImage{}
 
 /*  */
 
 .sectionFeature{
-
+padding: 80px 0;
 }
 .wrapFeature{
     background: #FFFFFF;
@@ -63,7 +112,10 @@ padding:40px 0 40px;
     margin: 10px 0 0;
 }
 /*  */
-.sectionPricing{}
+.sectionPricing{
+    background: linear-gradient(213.72deg, #FFF1F1 24.88%, #E9F8FB 80.54%);
+    padding: 80px 0;
+}
 .wrapPricingSelect {
     width: 100%;
     display: flex;
@@ -115,14 +167,21 @@ padding:40px 0 40px;
     line-height: 30px;
     color: #3C444F;
     margin-bottom: 0;
+    display: flex;
 }
 .wrapNameNumber h3 span{
     background: #01A652;
     border-radius: 4px;
-    padding: 6px 16px;
+    padding: 0px 9px;
     font-weight: 700;
     font-size: 12px;
     color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+    width: 100%;
+    margin: 0 0 0 10px;
 }
 
 .wrapNameNumber h5{
@@ -233,6 +292,21 @@ padding:40px 0 40px;
 
 
 /*  */
+.location{
+    background-image: url(../public/images/global-map.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center top;
+    padding: 200px 0 200px;
+}
+.locationDashboard{
+    background-image: url(../public/images/global-map.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center top;
+    padding: 200px 0 300px;
+}
+
 .wrapFlagBox{
     text-align: center;
     background: #FFFFFF;
@@ -433,7 +507,6 @@ padding:40px 0 40px;
     font-weight: 700;
     font-size: 41px;
     line-height: 140%;
-    color: #8100B4;
     position: relative;
 }
 .wrapCount h3::before{
@@ -441,7 +514,6 @@ padding:40px 0 40px;
     content: '';
     width: 48px;
     height: 4px;
-    background: #8100B4;
     bottom: -10px;
     left: 0;
 }
@@ -454,18 +526,15 @@ padding:40px 0 40px;
     width: 75%;
     margin: 30px 0 10px;
 }
-.counterPad .headColor:nth-child(1)>.wrapCount>h3{
-    color: red;
+.wrapCount.purple h3::before{
+    background: #8100B4;
 }
-.counterPad .headColor:nth-child(2)>.wrapCount>h3{
-    color: #01A652;
+.wrapCount.blue h3::before{
+    background: #074FFE;
 }
-.counterPad .headColor:nth-child(3)>.wrapCount>h3{
-    color: #074FFE;
-}   
-
-
-
+.wrapCount.orange h3::before{
+    background: #F47D31;
+}
 /* responsive */
 
 @media (max-width:1200px){

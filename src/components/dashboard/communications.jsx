@@ -24,7 +24,7 @@ const Communications = () => {
                   PROFESSIONAL_COMM.map((x) => (
                     <>
                       <Col md="4">
-                        <div className={styles.wrapCount}>
+                        <div className={`${styles.wrapCount} ${styles[`${x.class}`]}`} style={{color:`${x.color}`}}>
                           <h3>{x.number}</h3>
                           <p>{x.description}</p>
                         </div>
@@ -37,6 +37,8 @@ const Communications = () => {
               </Col>
             </Row>
         </Container>
+
+
   )
 }
 

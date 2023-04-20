@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaLongArrowAltRight } from "react-icons/fa";
+import { FaApple, FaGooglePlay, FaLongArrowAltRight } from "react-icons/fa";
 import styles from "../../../styles/pricing.module.css";
 import {
   Container,
@@ -20,10 +20,26 @@ const Banner = () => {
                 <h6>
                   One app to find amazing offers and discounts
                 </h6>
-                <Button className={styles.signUpButton}>
-                  Sign Up
-                  <FaLongArrowAltRight />
+                <div className={styles.bannerButtonDownload}>
+                <Button outline className={`${styles.btnFtr} ${styles.googlePlayBtn}`}>
+                  <div className={styles.downloadBtn}>
+                  <FaGooglePlay size={25} className={styles.ftrIcon} />
+                    <span>
+                      Download on
+                      <strong>Google Play</strong>
+                    </span> 
+                  </div>
                 </Button>
+                <Button outline className={`${styles.btnFtr} ${styles.appleStoreBtn}`} >
+                  <div className={styles.downloadBtn}>
+                  <FaApple size={30} className={styles.ftrIcon} />
+                    <span>
+                      Download on
+                      <strong>App Store</strong>
+                    </span> 
+                  </div>
+                </Button>
+              </div>
               </div>
             </Col>
             <Col md="7">

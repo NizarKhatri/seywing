@@ -127,7 +127,14 @@
 	.socialMediaContainer ul li:nth-child(4){
 		margin-right: 0px !important;
 	}
-	.companyPadLeft{
+	.footer .companyPadLeft{
 		padding-left: 10px !important;
+		width: 100px !important;
+	}
+	.footer .paddingLeft{
+		width: 100px !important;
+	}
+	.btnAlignment {
+		padding-top: 10px;
 	}
 }
