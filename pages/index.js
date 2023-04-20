@@ -1,9 +1,5 @@
 import Head from 'next/head';
-import Image from 'next/image';
 import { Inter } from 'next/font/google';
-import styles from '@/styles/home.module.css';
-import { Button } from 'reactstrap';
-import DashboardComponent from '../src/components/dashboard/dashboard';
 
 const inter = Inter({ subsets: ['latin'] });
 

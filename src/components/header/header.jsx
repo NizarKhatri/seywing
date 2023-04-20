@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import styles from '../../../styles/header.module.css';
+import styles from '../../../styles/Header.module.css';
 import { Container, Row, Col,Button } from 'reactstrap';
 import Image from 'next/image';
 
