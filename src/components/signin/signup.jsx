@@ -41,7 +41,7 @@ const SignupComponent = () => {
             </div>
             <span>Primary</span>
           </div>
-          <div className={step === 2 ? `${styles.stepTabActive} text-center` : ''}>
+          <div className={step === 2 ? `${styles.stepTabActive} ${styles.stepAltTwo} text-center` : ``}>
             <div className={styles.stepCount}>
               <p>2</p>
             </div>

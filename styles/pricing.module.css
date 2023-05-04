@@ -16,6 +16,11 @@ padding:40px 0 40px;
 }
 .wrapBanner h1 span{
     font-weight: 700;
+    color: #3C444F;
+}
+.wrapBanner h6{
+    margin: 20px 0;
+    color: #3C444F;
 }
 .signUpButton{
     display: flex;
@@ -65,7 +70,7 @@ padding:40px 0 40px;
 	font-weight: 400;
 	font-size: 13px;
 	line-height: 20px;
-	text-transform: uppercase;
+	text-transform: none;
 	color: #FFFFFF;
 }
 
@@ -85,7 +90,7 @@ padding:40px 0 40px;
 /*  */
 
 .sectionFeature{
-padding: 80px 0;
+padding: 200px 0 80px;
 }
 .wrapFeature{
     background: #FFFFFF;
@@ -405,13 +410,17 @@ padding: 80px 0;
 .sectionPartner .wrapSectionHeading .signUpButton{
     margin-top: 10px;
 }
-
+.wrapAmazingImage{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
 /*  */
 .sectionBlog{
-    background-image: url(/_next/static/media/wave-bg.fa1d2df4.png);
+    background-image: url(../public/images/wave_blog.svg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: 0 200%;
     padding: 84px 0 130px; 
 }
 
@@ -536,7 +545,11 @@ padding: 80px 0;
     background: #F47D31;
 }
 /* responsive */
-
+@media (max-width:1440px){
+    .sectionBlog{
+        background-position: 0 -170px;
+    }
+}
 @media (max-width:1200px){
 .lineBreak{
         display: none;

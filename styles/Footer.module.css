@@ -94,7 +94,7 @@
 	font-weight: 400;
 	font-size: 13px;
 	line-height: 20px;
-	text-transform: uppercase;
+	text-transform: none;
 	color: #FFFFFF;
 }
 
@@ -128,13 +128,19 @@
 		margin-right: 0px !important;
 	}
 	.footer .companyPadLeft{
-		padding-left: 10px !important;
-		width: 100px !important;
 	}
 	.footer .paddingLeft{
-		width: 100px !important;
 	}
 	.btnAlignment {
 		padding-top: 10px;
+		align-items: center;
+		display: flex;
+		flex-direction: column;
 	}
+	.footerColRes{
+		padding: 0 !important;
+		width: 30%;
+		margin: 30px auto 20px;
+	}
+
 }
