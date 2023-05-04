@@ -2,6 +2,7 @@ import styles from '../../../styles/Footer.module.css';
 import { Container, Row, Col, Button } from 'reactstrap';
 import Image from 'next/image';
 import { FaGooglePlay, FaApple, FaTwitter, FaFacebook, FaInstagram, FaGithub } from 'react-icons/fa';
+import Link from 'next/link';
 
 export const Footer = () => {
   return (
@@ -34,11 +35,11 @@ export const Footer = () => {
           <Col md={3} className={`${styles.paddingLeft} ${styles.footerColRes}`}>
             <h5 className={styles.headingFooterColumn}>Support</h5>
             <ul className={styles.footerNaviagtion}>
-              <li><a href="#">FAQs</a></li>
-              <li><a href="#">Contact Us</a></li>
-              <li><a href="#">Term of Use</a></li>
-              <li><a href="#">Term of Sales</a></li>
-              <li><a href="#">Privacy</a></li>
+              <li><Link href="faq">FAQs</Link></li>
+              <li><Link href="contact-us">Contact Us</Link></li>
+              <li><Link href="terms-of-use">Term of Use</Link></li>
+              <li><Link href="terms-of-sales">Term of Sales</Link></li>
+              <li><Link href="privacy">Privacy</Link></li>
             </ul>
           </Col>
           <Col md={3}>

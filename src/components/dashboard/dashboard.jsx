@@ -8,10 +8,12 @@ import Blogs from './blogs';
 import Communications from './communications';
 import Categories from './categories';
 import Locations from './locations';
+import { Header } from '../header/header';
 
 const DashboardComponent = () => {
   return (
     <>
+      <Header />
       <div className={styles.sectionBanner}>
         <Banner />
       </div>

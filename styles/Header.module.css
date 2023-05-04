@@ -193,6 +193,11 @@
 		max-width: 50%;
 	}
 
+	.logo, .logo img { 
+		width: 100%; 
+		text-align: center; 
+	}
+
 	.container {
 		position: relative;
 	}
@@ -213,5 +218,9 @@
 
 	header .main-header ul.menu>li a:before {
 		display: none;
+	}
+
+	.buttonList { 
+		display: none; 
 	}
 }

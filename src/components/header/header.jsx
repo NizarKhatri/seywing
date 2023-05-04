@@ -23,13 +23,12 @@ export const Header = () => {
           <Col md={6}>
             <div className={styles.menuWrap}>
               <ul className={styles.menu}>
-                <li><Link href="/" passHref>About Us</Link></li>
-                <li><Link href="/pricing" passHref>Pricing</Link></li>
-                <li><Link href="/" passHref>Partner with Us</Link></li>
+                <li><Link href="/about-us" passHref>About Us</Link></li>
+                <li><Link href="/partner" passHref>Partner with Us</Link></li>
               </ul>
             </div>
           </Col>
-          <Col md={3}>
+          {/* <Col md={3}>
             <ul className={styles.buttonList}>
               <li>
                 <Link href="/login">
@@ -42,7 +41,7 @@ export const Header = () => {
               </Link>
               </li>
             </ul>
-          </Col>
+          </Col> */}
         </Row>
       </Container>
     </div>

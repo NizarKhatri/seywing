@@ -5,7 +5,7 @@ import { Header } from '../header/header';
 const MainLayout = ({ children }) => {
   return (
     <>
-      <Header />
+      {/* <Header /> */}
       <main>{children}</main>
       <Footer />
     </>
