@@ -19,10 +19,14 @@
     width: 100%;
     height: 100%;
     padding: 30px 0 0 30px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
 .rightSide{
-    padding: 40px 70px 150px;
+    padding: 40px 70px 240px;
     background-color: white;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 .paddFixeNext{
     padding: 40px 70px 50px;
@@ -118,7 +122,7 @@
 }
 .forgotPassword {
     float: right;
-    margin: 20px 20px;
+    margin: 0px 0 20px 20px ;
     color: #074FFE;
     font-weight: 500;
     font-size: 14px;
@@ -195,6 +199,9 @@
 }
 .stepPrevActive .stepCount p{
     color: #FFFFFF  ;
+}
+.stepAltTwo .stepCount p{
+    color: #074FFE;
 }
 .stepPrevActive span{
     color: #074FFE;

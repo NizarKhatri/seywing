@@ -9,7 +9,7 @@ const PartnerWithUs = () => {
           <Row>
           <Col md="7">
                 <div className={styles.wrapAmazingImage}>
-                  <img src="/images/discover-amazing.png" alt="Banner" />
+                  <img src="images/boost-banner.png" alt="Banner" />
                 </div>
             </Col>
             <Col md="5" className="text-left">

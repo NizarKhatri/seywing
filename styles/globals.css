@@ -119,7 +119,7 @@ border-radius: 15px;
 }
 
 div#__next{
-  background-image: url("../public/images/wave-bg.png");
+  background-image: url("../public/images/wave_main.svg");
   background-position: top center;
   background-repeat: no-repeat;
   background-size: contain;

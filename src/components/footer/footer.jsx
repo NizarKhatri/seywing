@@ -10,7 +10,7 @@ export const Footer = () => {
         <Row>
         <Col md={3}>
         <div className={`${styles.logoSection} ${styles.responsiveFooter}`}>
-          <Image alt="logo" src={'/images/seywing-footer.png'} width={167} height={22} />
+          <img alt="logo" src={'/images/seywing-footer.svg'}  />
           <p>Making the world a better place through constructing elegant hierarchies</p>
           <div className={styles.socialMediaContainer}>
             <ul>
@@ -22,7 +22,7 @@ export const Footer = () => {
         </div>
         </div>
         </Col>
-          <Col md={3} className={styles.companyPadLeft}>
+          <Col md={3} className={`${styles.companyPadLeft} ${styles.footerColRes}`}>
             <h5 className={styles.headingFooterColumn}>Company</h5>
             <ul className={styles.footerNaviagtion}>
               <li><a href="#">About Us</a></li>
@@ -31,7 +31,7 @@ export const Footer = () => {
               <li><a href="#">Partners</a></li>
             </ul>
           </Col>
-          <Col md={3} className={styles.paddingLeft}>
+          <Col md={3} className={`${styles.paddingLeft} ${styles.footerColRes}`}>
             <h5 className={styles.headingFooterColumn}>Support</h5>
             <ul className={styles.footerNaviagtion}>
               <li><a href="#">FAQs</a></li>

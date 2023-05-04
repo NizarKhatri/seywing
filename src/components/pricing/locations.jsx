@@ -28,7 +28,7 @@ const Locations = () => {
                     alt={x.name}
                     src={`/images/${x.image}.svg`}
                     width={72}
-                    height={52}
+                    height={72}
                   />
                   <h4>{x.name}</h4>
                 </div>
