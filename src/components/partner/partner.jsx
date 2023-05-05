@@ -19,7 +19,7 @@ const PartnerComponent = () => {
             <Row>
               <Col md={3}>
                 <a href="./" className={headerStyles.logo}>
-                <img alt="logo" src={'/images/seywing-logo.svg'} />
+                  <img alt="logo" src={'/images/seywing-logo.svg'} />
                 </a>
               </Col>
               <Col md={6}>
@@ -54,7 +54,7 @@ const PartnerComponent = () => {
       <div className={styles.sectionBanner}>
         <BoostBanner />
       </div>
-      <div className={styles.sectionFeature}>
+      <div className={`${styles.sectionFeature} ${styles.sectionFeaturePadAdjustment}`}>
         <UniqueFeatures />
       </div>
       <div className={styles.sectionPricing}>

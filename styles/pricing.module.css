@@ -681,5 +681,8 @@ padding: 200px 0 80px;
         padding: 30px 0 50px; 
         background-image: none; 
     }
+.sectionFeaturePadAdjustment {
+    padding: 0;
+}
 
 }
