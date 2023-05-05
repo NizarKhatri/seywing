@@ -4,6 +4,7 @@ import { Container, Row, Col, Button } from 'reactstrap';
 import { PRICING_LOCATION } from '../../../constants/pricing-location.constant';
 import Image from "next/image";
 import { FaLongArrowAltRight } from "react-icons/fa";
+import Link from 'next/link';
 
 const Locations = () => {
   return (
@@ -43,10 +44,12 @@ const Locations = () => {
               ))}
             <Col md="12" className="text-center">
               <div className={styles.wrapLocButton}>
+              <Link href="/signup">
                 <Button className={styles.signUpButton}>
                    Sign Up
                   <FaLongArrowAltRight />
                 </Button>
+                </Link>
               </div>
             </Col>
           </Row>

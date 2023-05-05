@@ -13,6 +13,7 @@ import { TABS } from '../../../constants/tabs.constant';
 import {Container, Row, Col,Button } from 'reactstrap';
 import LoginComponent from './login';
 import SignupComponent from './signup';
+import PartnerHeader from '../partner-header/partner-header';
 
 const AuthComponent = ({selectedTab}) => {
   const [activeTab, setActiveTab] = useState(selectedTab);
@@ -23,6 +24,7 @@ const AuthComponent = ({selectedTab}) => {
 
   return (
     <>
+      <PartnerHeader />
       <Container className={styles.myCustContainer} >
         <Row>
           <Col md={7} className={styles.pdZero}>

@@ -26,10 +26,10 @@ export const Footer = () => {
           <Col md={3} className={`${styles.companyPadLeft} ${styles.footerColRes}`}>
             <h5 className={styles.headingFooterColumn}>Company</h5>
             <ul className={styles.footerNaviagtion}>
-              <li><a href="#">About Us</a></li>
-              <li><a href="#">Pricing</a></li>
-              <li><a href="#">Blog</a></li>
-              <li><a href="#">Partners</a></li>
+              <li><a href="about-us">About Us</a></li>
+              <li><a href="pricing">Pricing</a></li>
+              <li><a href="blog">Blog</a></li>
+              <li><a href="partner">Partners</a></li>
             </ul>
           </Col>
           <Col md={3} className={`${styles.paddingLeft} ${styles.footerColRes}`}>
