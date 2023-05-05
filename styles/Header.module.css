@@ -15,6 +15,10 @@
 	display: block;
 }
 
+.menuWrap {
+  margin-top: 10px;
+}
+
 /* Menu Css */
 .menu {
 	font-size: 0px;

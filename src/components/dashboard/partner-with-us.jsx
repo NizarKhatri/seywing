@@ -2,6 +2,7 @@ import React from 'react'
 import styles from '../../../styles/pricing.module.css';
 import { Container, Row, Col, Button } from 'reactstrap';
 import { FaLongArrowAltRight } from "react-icons/fa";
+import Link from 'next/link';
 
 const PartnerWithUs = () => {
   return (
@@ -17,11 +18,13 @@ const PartnerWithUs = () => {
                 <h2>
                     <span>Partner</span> With Us 
                 </h2>
-                <p>Arcu pellentesque donec porttitor sit suspendisse eget turpis et. Elementum eu cras tempus hac tristique neque lacus nunc feugiat.</p>                
+                <p>Arcu pellentesque donec porttitor sit suspendisse eget turpis et. Elementum eu cras tempus hac tristique neque lacus nunc feugiat.</p>   
+                <Link href="/partner">
                 <Button className={styles.signUpButton}>
                   Learn More
                   <FaLongArrowAltRight />
                 </Button>
+                </Link>             
               </div>
             </Col>
           </Row>

@@ -3,8 +3,6 @@ import styles from '../../../styles/auth.module.css';
 import {
   Input,
   Button,
-  InputGroup,
-  InputGroupText,
   Label,
   ButtonGroup,
 } from 'reactstrap';
@@ -20,8 +18,8 @@ const SignupComponent = () => {
     setSelectedValue(e.target.value);
   };
 
-  const handleNextStep = () => {
-    setStep(2);
+  const handleNextStep = (step) => {
+    setStep(step);
   };
 
   const handleMerchantType = (value) => {
@@ -35,14 +33,15 @@ const SignupComponent = () => {
     <>
       <div className={styles.steps}>
         <div className={step === 2 ? `${styles.stepNextBefAlt} ${styles.stepTab}` : `${styles.stepTab}`}>
-        <div className={step === 1 ? `${styles.stepTabActive} text-center` : `${styles.stepPrevActive} text-center`}>
-            <div className={styles.stepCount}>
+        <div 
+              className={step === 1 ? `${styles.stepTabActive} text-center` : `${styles.stepPrevActive} text-center`} >
+            <div className={styles.stepCount} onClick={() => handleNextStep(1)} style={{cursor: 'pointer'}}>
               <p>1</p>
             </div>
             <span>Primary</span>
           </div>
-          <div className={step === 2 ? `${styles.stepTabActive} ${styles.stepAltTwo} text-center` : ``}>
-            <div className={styles.stepCount}>
+          <div className={step === 2 ? `${styles.stepTabActive} ${styles.stepAltTwo} text-center` : ``} >
+            <div className={styles.stepCount} onClick={() => handleNextStep(2)} style={{cursor: 'pointer'}}>
               <p>2</p>
             </div>
             <span>Secondary</span>
@@ -54,7 +53,7 @@ const SignupComponent = () => {
             <Input type="text" placeholder="Last Name" />
             <Input type="email" placeholder="Email" />
             <Input type="password" placeholder="Password" />
-            <Button color="primary" className={styles.btnPrimary} onClick={handleNextStep}>
+            <Button color="primary" className={styles.btnPrimary} onClick={() => handleNextStep(2)}>
               Next
             </Button>
           </div>
