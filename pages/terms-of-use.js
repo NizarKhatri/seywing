@@ -1,4 +1,4 @@
-import PartnerHeader from '@/src/components/partner-header/partner-header';
+import PartnerHeader from '../src/components/partner-header/partner-header';
 import styles from '../styles/general.module.css';
 import React from 'react'
 import { Col, Container, Row } from 'reactstrap';
