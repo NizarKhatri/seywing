@@ -1,12 +1,22 @@
-.sectionFeature, .sectionPricing, .sectionCategories, .location, .sectionExcitingFeatures, .sectionDiscoverAmazing, .sectionPartner, .sectionBlog, .sectionProfessional {
-width: 100%;
-padding:40px 0 40px;
+.sectionFeature,
+.sectionPricing,
+.sectionCategories,
+.location,
+.sectionExcitingFeatures,
+.sectionDiscoverAmazing,
+.sectionPartner,
+.sectionBlog,
+.sectionProfessional {
+    width: 100%;
+    padding: 40px 0 40px;
 }
-.wrapBanner{
+
+.wrapBanner {
     width: 100%;
     padding: 40% 0 0;
 }
-.wrapBanner h1{
+
+.wrapBanner h1 {
     font-style: normal;
     font-weight: 100;
     font-size: 56px;
@@ -14,15 +24,18 @@ padding:40px 0 40px;
     text-transform: capitalize;
     color: #3C444F;
 }
-.wrapBanner h1 span{
+
+.wrapBanner h1 span {
     font-weight: 700;
     color: #3C444F;
 }
-.wrapBanner h6{
+
+.wrapBanner h6 {
     margin: 20px 0;
     color: #3C444F;
 }
-.signUpButton{
+
+.signUpButton {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -36,79 +49,88 @@ padding:40px 0 40px;
     margin: 50px 0 0;
     border: none;
 }
-.bannerButtonDownload{
+
+.bannerButtonDownload {
     display: flex;
     align-items: center;
-	justify-content: flex-start;
-	vertical-align: middle;
+    justify-content: flex-start;
+    vertical-align: middle;
 }
+
 .btnFtr {
-	padding: 8px 0px;
-	text-align: center;
-	border: 1px solid #FFFFFF;
-	border-radius: 6px;
-	background: transparent;
-	color: #FFFFFF;
-	width: 170px;
-	margin: 0 0 20px;
+    padding: 8px 0px;
+    text-align: center;
+    border: 1px solid #FFFFFF;
+    border-radius: 6px;
+    background: transparent;
+    color: #FFFFFF;
+    width: 170px;
+    margin: 0 0 20px;
 }
 
 .btnFtr .downloadBtn {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	vertical-align: middle;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
 }
 
 .downloadBtn .ftrIcon {
-	margin: 0 15px 0 0;
+    margin: 0 15px 0 0;
 }
 
 .downloadBtn span {
-	text-align: left;
-	font-style: normal;
-	font-weight: 400;
-	font-size: 13px;
-	line-height: 20px;
-	text-transform: none;
-	color: #FFFFFF;
+    text-align: left;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    text-transform: none;
+    color: #FFFFFF;
 }
 
 .downloadBtn span strong {
-	display: block;
-	font-size: 14px;
+    display: block;
+    font-size: 14px;
 }
-.googlePlayBtn{
+
+.googlePlayBtn {
     background: #074FFE;
     margin-right: 30px;
 }
-.appleStoreBtn{
+
+.appleStoreBtn {
     background: #3C444F;
 }
-.wrapBannaerImage{}
+
+.wrapBannaerImage {}
 
 /*  */
 
-.sectionFeature{
-padding: 200px 0 80px;
+.sectionFeature {
+    padding: 200px 0 80px;
 }
-.wrapFeature{
+
+.wrapFeature {
     background: #FFFFFF;
     box-shadow: 0px 14px 14px rgba(0, 0, 0, 0.04);
     border-radius: 16px;
     padding: 20px;
 }
-.wrapFeature img{
+
+.wrapFeature img {
     margin: 0 0 15px;
 }
-.wrapFeature h5{
+
+.wrapFeature h5 {
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 140%;
     color: #3C444F;
 }
-.wrapFeature p{
+
+.wrapFeature p {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -116,24 +138,29 @@ padding: 200px 0 80px;
     color: #3C444F;
     margin: 10px 0 0;
 }
+
 /*  */
-.sectionPricing{
+.sectionPricing {
     background: linear-gradient(213.72deg, #FFF1F1 24.88%, #E9F8FB 80.54%);
     padding: 80px 0;
 }
+
 .wrapPricingSelect {
     width: 100%;
     display: flex;
     align-items: flex-end;
     justify-content: flex-end;
 }
-.wrapPricingSelect .select{
+
+.wrapPricingSelect .select {
     width: 165px;
 }
-.headFix .wrapSectionHeading{
+
+.headFix .wrapSectionHeading {
     text-align: right;
 }
-.wrapSectionHeading h2{
+
+.wrapSectionHeading h2 {
     font-style: normal;
     font-weight: 100;
     font-size: 40px;
@@ -143,11 +170,12 @@ padding: 200px 0 80px;
     font-weight: 400;
     margin: 0 0 40px;
 }
-.wrapSectionHeading span{
+
+.wrapSectionHeading span {
     font-weight: 700;
 }
-.wrapSectionHeading p
-{
+
+.wrapSectionHeading p {
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -155,17 +183,20 @@ padding: 200px 0 80px;
     color: rgba(18, 17, 39, 0.72);
     padding: 0 140px 0 0;
 }
-.wrapPricingCol{
+
+.wrapPricingCol {
     background: #FFFFFF;
     box-shadow: 0px 14px 14px rgba(0, 0, 0, 0.04);
     border-radius: 16px;
     padding: 20px;
 }
-.wrapNameRow{
+
+.wrapNameRow {
     display: flex;
     justify-content: space-between;
 }
-.wrapNameNumber h3{
+
+.wrapNameNumber h3 {
     font-style: normal;
     font-weight: 700;
     font-size: 22px;
@@ -174,7 +205,8 @@ padding: 200px 0 80px;
     margin-bottom: 0;
     display: flex;
 }
-.wrapNameNumber h3 span{
+
+.wrapNameNumber h3 span {
     background: #01A652;
     border-radius: 4px;
     padding: 0px 9px;
@@ -189,34 +221,39 @@ padding: 200px 0 80px;
     margin: 0 0 0 10px;
 }
 
-.wrapNameNumber h5{
+.wrapNameNumber h5 {
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 30px;
     color: #717171;
 }
-.wrapPackagePrice{
+
+.wrapPackagePrice {
     display: flex;
     align-items: center;
     justify-content: center;
     vertical-align: middle;
 }
-.wrapPackagePrice h2{
+
+.wrapPackagePrice h2 {
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
     line-height: 30px;
     color: #3C444F;
 }
+
 .wrapPackageList ul {
     list-style: none;
     padding-left: 0;
 }
-.wrapPackageList ul li{
+
+.wrapPackageList ul li {
     display: flex;
 }
-.wrapPackageList ul li p{
+
+.wrapPackageList ul li p {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -224,10 +261,12 @@ padding: 200px 0 80px;
     letter-spacing: 0.2px;
     color: #6C6C6C;
 }
-.wrapPackageList ul li span{
+
+.wrapPackageList ul li span {
     margin: 0 10px 0 0;
 }
-.wrapPricingCol button{
+
+.wrapPricingCol button {
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
@@ -239,7 +278,8 @@ padding: 200px 0 80px;
     border: none;
     border-radius: 8px;
 }
-.wrapPricingCol a{
+
+.wrapPricingCol a {
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
@@ -247,31 +287,37 @@ padding: 200px 0 80px;
     text-align: center;
     color: #3C444F;
     display: block;
-    margin:20px 0 10px;
+    margin: 20px 0 10px;
 }
 
 /*  */
-.sectionCategories{}
-.wrapCategoriesList{
+.sectionCategories {}
+
+.wrapCategoriesList {
     width: 100%;
 }
-.wrapCategoriesList ul{
+
+.wrapCategoriesList ul {
     list-style: none;
     font-size: 0;
     display: inline-block;
     width: 100%;
 }
-.wrapCategoriesList ul li{
+
+.wrapCategoriesList ul li {
     display: inline-block;
     width: 9%;
     margin: 0 74px 0 0;
     text-align: center;
     vertical-align: top;
 }
-.wrapCategoriesList ul li:nth-child(7), .wrapCategoriesList ul li:nth-child(14){
+
+.wrapCategoriesList ul li:nth-child(7),
+.wrapCategoriesList ul li:nth-child(14) {
     margin-right: 0 !important;
 }
-.wrapCategoriesList ul li .wrapCatImg{
+
+.wrapCategoriesList ul li .wrapCatImg {
     width: 100px;
     height: 100px;
     display: flex;
@@ -283,7 +329,8 @@ padding: 200px 0 80px;
     border-radius: 16px;
 
 }
-.wrapCategoriesList ul li h4{
+
+.wrapCategoriesList ul li h4 {
     font-style: normal;
     font-weight: 600;
     font-size: 13px;
@@ -297,14 +344,15 @@ padding: 200px 0 80px;
 
 
 /*  */
-.location{
+.location {
     background-image: url(../public/images/global-map.svg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center top;
     padding: 200px 0 200px;
 }
-.locationDashboard{
+
+.locationDashboard {
     background-image: url(../public/images/global-map.svg);
     background-size: contain;
     background-repeat: no-repeat;
@@ -312,7 +360,7 @@ padding: 200px 0 80px;
     padding: 200px 0 300px;
 }
 
-.wrapFlagBox{
+.wrapFlagBox {
     text-align: center;
     background: #FFFFFF;
     box-shadow: 0px 14px 14px rgba(0, 0, 0, 0.04);
@@ -320,14 +368,16 @@ padding: 200px 0 80px;
     position: relative;
     margin: 0 45px 0 0;
 }
-.wrapContent{
+
+.wrapContent {
     width: 200px;
     height: 200px;
     text-align: center;
     margin: auto;
     padding: 40px 0 0;
 }
-.wrapContent h4{
+
+.wrapContent h4 {
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
@@ -336,7 +386,8 @@ padding: 200px 0 80px;
     margin-top: 20px;
     display: block;
 }
-.wrapOverlayDefault{
+
+.wrapOverlayDefault {
     background: #000000;
     opacity: 0.7;
     position: absolute;
@@ -350,14 +401,16 @@ padding: 200px 0 80px;
     vertical-align: middle;
     border-radius: 14px;
 }
-.wrapOverlayDefault span{
+
+.wrapOverlayDefault span {
     font-weight: 500;
     font-size: 21px;
     line-height: 140%;
     color: #FFFFFF;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-.wrapLocButton{
+
+.wrapLocButton {
     width: 100%;
     text-align: center;
     display: flex;
@@ -368,15 +421,18 @@ padding: 200px 0 80px;
 
 /*  */
 
-.sectionExcitingFeatures{}
-.wrapFeatures{
+.sectionExcitingFeatures {}
+
+.wrapFeatures {
     text-align: center;
     width: 100%;
 }
-.wrapFeatures img{
+
+.wrapFeatures img {
     min-height: 210px;
 }
-.wrapFeatures h5{
+
+.wrapFeatures h5 {
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -384,7 +440,8 @@ padding: 200px 0 80px;
     text-align: center;
     color: #3C444F;
 }
-.wrapFeatures p{
+
+.wrapFeatures p {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -395,8 +452,10 @@ padding: 200px 0 80px;
 
 
 /*  */
-.sectionDiscoverAmazing{}
-.sectionDiscoverAmazing .wrapSectionHeading, .sectionPartner .wrapSectionHeading{
+.sectionDiscoverAmazing {}
+
+.sectionDiscoverAmazing .wrapSectionHeading,
+.sectionPartner .wrapSectionHeading {
     display: flex;
     align-items: flex-start;
     justify-content: center;
@@ -404,54 +463,65 @@ padding: 200px 0 80px;
     flex-direction: column;
     height: 100%
 }
-.sectionDiscoverAmazing .wrapSectionHeading h2, .sectionPartner .wrapSectionHeading h2{
+
+.sectionDiscoverAmazing .wrapSectionHeading h2,
+.sectionPartner .wrapSectionHeading h2 {
     margin-bottom: 10px;
 }
-.sectionPartner .wrapSectionHeading .signUpButton{
+
+.sectionPartner .wrapSectionHeading .signUpButton {
     margin-top: 10px;
 }
-.wrapAmazingImage{
+
+.wrapAmazingImage {
     display: flex;
     align-items: flex-start;
     justify-content: flex-end;
 }
+
 /*  */
-.sectionBlog{
+.sectionBlog {
     background-image: url(../public/images/wave_blog.svg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 0 200%;
-    padding: 84px 0 130px; 
+    padding: 84px 0 130px;
 }
 
-.sectionBlog .wrapSectionHeading h2{
+.sectionBlog .wrapSectionHeading h2 {
     margin-bottom: 10px;
 }
-.sectionBlog .wrapSectionHeading p{
+
+.sectionBlog .wrapSectionHeading p {
     color: rgba(18, 17, 39, 0.56);
     padding: 0;
     margin-bottom: 50px;
 }
-.wrapBlogBox, .wrapBlogBox img{
+
+.wrapBlogBox,
+.wrapBlogBox img {
     width: 100%;
 }
-.wrapBlogBox{
+
+.wrapBlogBox {
     background: #FFFFFF;
     box-shadow: 0px 20px 50px rgba(18, 17, 39, 0.08);
     border-radius: 16px !important;
 }
-.wrapTextBlog{
+
+.wrapTextBlog {
     padding: 32px 24px 12px;
 }
 
-.wrapTextBlog h4{
+.wrapTextBlog h4 {
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
     line-height: 140%;
     color: #3C444F;
 }
-.wrapTextBlog p{
+
+.wrapTextBlog p {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -460,18 +530,22 @@ padding: 200px 0 80px;
     margin-top: 10px;
     min-height: 170px;
 }
-.wrapAuthDetail{
+
+.wrapAuthDetail {
     display: flex
 }
-.wrapAuthDetail img{
+
+.wrapAuthDetail img {
     height: 48px;
     width: 48px;
 }
-.wrapAuthDetail ul{
+
+.wrapAuthDetail ul {
     list-style: none;
     padding-left: 10px;
 }
-.wrapAuthDetail ul li h6{
+
+.wrapAuthDetail ul li h6 {
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
@@ -479,7 +553,8 @@ padding: 200px 0 80px;
     color: #121127;
     margin: 0;
 }
-.wrapAuthDetail ul li p{
+
+.wrapAuthDetail ul li p {
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
@@ -496,29 +571,35 @@ padding: 200px 0 80px;
     border-radius: 50px;
     padding: 40px 0;
 }
-.wrapProfessionalInner .wrapSectionHeading{
+
+.wrapProfessionalInner .wrapSectionHeading {
     width: 100%;
     text-align: center;
 }
-.wrapCount{
+
+.wrapCount {
     background: #FFFFFF;
     box-shadow: 0px 14px 14px rgba(0, 0, 0, 0.04);
     border-radius: 26px;
 }
-.counterPad{
+
+.counterPad {
     padding: 0 125px 50px;
 }
-.wrapCount{
+
+.wrapCount {
     padding: 20px;
 }
-.wrapCount h3{
+
+.wrapCount h3 {
     font-style: normal;
     font-weight: 700;
     font-size: 41px;
     line-height: 140%;
     position: relative;
 }
-.wrapCount h3::before{
+
+.wrapCount h3::before {
     position: absolute;
     content: '';
     width: 48px;
@@ -526,7 +607,8 @@ padding: 200px 0 80px;
     bottom: -10px;
     left: 0;
 }
-.wrapCount p{
+
+.wrapCount p {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -535,154 +617,211 @@ padding: 200px 0 80px;
     width: 75%;
     margin: 30px 0 10px;
 }
-.wrapCount.purple h3::before{
+
+.wrapCount.purple h3::before {
     background: #8100B4;
 }
-.wrapCount.blue h3::before{
+
+.wrapCount.blue h3::before {
     background: #074FFE;
 }
-.wrapCount.orange h3::before{
+
+.wrapCount.orange h3::before {
     background: #F47D31;
 }
 
 .buttonList {
-	font-size: 0px;
-	display: inline-block;
-	vertical-align: middle;
-	list-style: none;
+    font-size: 0px;
+    display: inline-block;
+    vertical-align: middle;
+    list-style: none;
 }
 
 .buttonList li {
-	display: inline-block;
-	vertical-align: middle;
-	margin-right: 24px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 24px;
 }
 
 .buttonList li button {
-	border-radius: 6px;
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	align-items: center;
-	padding: 8px 24px;
-	font-style: normal;
-	font-weight: 500;
-	font-size: 14px;
-	line-height: 24px;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 24px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
 }
 
 .buttonList li:nth-child(1) button {
-	border: 1px solid rgba(18, 17, 39, 0.12);
-	background: transparent;
-	color: #121127;
-	;
+    border: 1px solid rgba(18, 17, 39, 0.12);
+    background: transparent;
+    color: #121127;
+    ;
 }
 
 .buttonList li:nth-child(2) button {
-	border: 1px solid #F47D31;
-	background: #F47D31;
-	color: #fff;
+    border: 1px solid #F47D31;
+    background: #F47D31;
+    color: #fff;
 }
+
 /* responsive */
-@media (max-width:1440px){
-    .sectionBlog{
+@media (max-width:1440px) {
+    .sectionBlog {
         background-position: 0 -170px;
     }
 }
-@media (max-width:1200px){
-.lineBreak{
+
+@media (max-width:1200px) {
+    .lineBreak {
         display: none;
     }
-    .wrapBanner h1{
+
+    .sectionBanner .wrapBanner {
+        text-align: center;
+    }
+
+    .wrapBanner h1 {
         font-size: 30px;
         line-height: 35px;
     }
-    .signUpButton{
+
+    .signUpButton {
         margin-top: 20px;
     }
-    .wrapBannaerImage{
+
+    .wrapBannaerImage {
         width: 100%;
     }
-    .wrapBannaerImage img{
+
+    .wrapBannaerImage img {
         width: 100%;
     }
-    .wrapFeature{
+
+    .wrapFeature {
         width: 300px;
         margin: 0 auto 30px;
     }
-    .wrapSectionHeading h2{
+
+    .wrapSectionHeading h2 {
         font-size: 25px;
         margin-bottom: 20px;
         text-align: center;
     }
-    .wrapPricingSelec input, .select{
+
+    .wrapPricingSelec input,
+    .select {
         width: auto;
         margin: 0 auto;
     }
-    .wrapPricingSelect{
-       display: block;
-       text-align: center;
-       width: 100%;
-       margin: 0 auto 30px;
+
+    .wrapPricingSelect {
+        display: block;
+        text-align: center;
+        width: 100%;
+        margin: 0 auto 30px;
     }
-    .wrapPricingCol{
+
+    .wrapPricingCol {
         margin-bottom: 20px;
     }
-    .wrapCategoriesList ul li, .wrapCategoriesList ul li:nth-child(7){
+
+    .wrapCategoriesList ul li,
+    .wrapCategoriesList ul li:nth-child(7) {
         width: 45%;
         margin-right: 20px !important;
     }
-    .wrapCategoriesList ul li:nth-child(even){
+
+    .wrapCategoriesList ul li:nth-child(even) {
         margin-right: 0 !important;
     }
-    .wrapFlagBox{
+
+    .wrapFlagBox {
         width: 170px;
         margin: 15px auto 15px;
     }
-    .wrapContent{
+
+    .wrapContent {
         width: fit-content;
         height: auto;
         padding: 10px 0;
     }
-    .wrapFeatures{
+
+    .wrapFeatures {
         margin: 30px 0 0 0;
     }
-    .wrapFeatures p{
+
+    .wrapFeatures p {
         padding: 0 20px;
     }
-    .sectionDiscoverAmazing .wrapSectionHeading p, .sectionPartner .wrapSectionHeading p{
+
+    .sectionDiscoverAmazing .wrapSectionHeading p,
+    .sectionPartner .wrapSectionHeading p {
         text-align: center;
         padding: 0 15px;
     }
-    .sectionPartner .wrapSectionHeading h2,  .sectionPartner .wrapSectionHeading button{
+
+    .sectionPartner .wrapSectionHeading h2,
+    .sectionPartner .wrapSectionHeading button {
         width: 100%;
         text-align: center;
     }
-    .wrapAmazingImage, .wrapAmazingImage img{
+
+    .wrapAmazingImage,
+    .wrapAmazingImage img {
         width: 100%;
     }
-    .sectionBlog{
+
+    .sectionBlog {
         padding: 50px 0;
     }
-    .wrapBlogBox{
+
+    .wrapBlogBox {
         margin-bottom: 30px;
     }
-    .wrapTextBlog p{    
-        min-height: auto    ;
+
+    .wrapTextBlog p {
+        min-height: auto;
     }
-    .counterPad{
+
+    .counterPad {
         padding: 0 20px;
     }
-    .wrapCount{
+
+    .wrapCount {
         margin-bottom: 30px;
     }
 
-    .locationDashboard, .location { 
-        padding: 30px 0 50px; 
-        background-image: none; 
+    .locationDashboard,
+    .location {
+        padding: 30px 0 50px;
+        background-image: none;
     }
-.sectionFeaturePadAdjustment {
-    padding: 0;
-}
 
+    .sectionFeaturePadAdjustment {
+        padding: 0;
+    }
+
+    .locationDashboard .wrapFlagBox .wrapContent h4,
+    .location .wrapFlagBox .wrapContent h4 {
+        margin-top: 10px;
+    }
+
+    .wrapCategoriesList ul {
+        padding: 0 0 0 14% !important;
+    }
+
+    .sectionPartner a,
+    button.responsiveBannerButton {
+        text-align: center !important;
+        margin: 0 auto;
+    }
+
+    .sectionDiscoverAmazing .wrapSectionHeading h2 {
+        margin: 0 auto 10px;
+    }
 }

@@ -21,7 +21,7 @@ const BoostBanner = () => {
                   <span>Boost</span> your business <br className={styles.lineBreak}/>with <span>Seywing!</span>
                 </h1>
                 <Link href="/signup">
-                <Button className={styles.signUpButton}>
+                <Button className={`${styles.signUpButton} ${styles.responsiveBannerButton}`}>
                   Sign Up
                   <FaLongArrowAltRight />
                 </Button>

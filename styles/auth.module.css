@@ -283,4 +283,9 @@
     border: 1px solid #F7A069;
     background-color: #FDEDE2;
 }
+@media (max-width:1200px) {
+    .paddFixeNext, .rightSide {
+        padding: 40px 30px 50px;
+    }
+}
 
