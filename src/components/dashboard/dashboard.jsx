@@ -14,7 +14,7 @@ const DashboardComponent = () => {
   return (
     <>
       <Header />
-      <div className={styles.sectionBanner}>
+      <div className={`${styles.sectionBanner} ${styles.resSectionBanner}`}>
         <Banner />
       </div>
       <div className={styles.sectionExcitingFeatures}>

@@ -9,12 +9,26 @@ const PartnerWithUs = () => {
     <Container>
           <Row>
           <Col md="7">
-                <div className={styles.wrapAmazingImage}>
+                <div className={`${styles.wrapSectionHeading} ${styles.respMani}`}>
+                  <h2>
+                      <span>Partner</span> With Us 
+                  </h2>
+                  <p>Arcu pellentesque donec porttitor sit suspendisse eget turpis et. Elementum eu cras tempus hac tristique neque lacus nunc feugiat.</p>              
+                </div>
+                <div className={`${styles.wrapAmazingImage} ${styles.respWrapAmazingImage}`}>
                   <img src="images/boost-banner.png" alt="Banner" />
                 </div>
+                <div className={`${styles.wrapSectionHeading} ${styles.respMani}`}>
+                <Link href="/partner">
+                <Button className={styles.signUpButton}>
+                  Learn More
+                  <FaLongArrowAltRight />
+                </Button>
+                </Link>             
+              </div>
             </Col>
             <Col md="5" className="text-left">
-              <div className={styles.wrapSectionHeading}>
+              <div className={`${styles.wrapSectionHeading} ${styles.respNami}`}>
                 <h2>
                     <span>Partner</span> With Us 
                 </h2>

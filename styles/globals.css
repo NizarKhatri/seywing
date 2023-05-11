@@ -129,3 +129,10 @@ div#__next{
   background: none;
   border: none;
 }
+
+@media (max-width:767px){
+  div#__next{
+    background-position: 5% -5%;
+    background-size: auto;
+  }
+}
