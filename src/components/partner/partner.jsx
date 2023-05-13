@@ -13,10 +13,10 @@ const PartnerComponent = () => {
       <div>
         <PartnerHeader />
       </div>
-      <div className={styles.sectionBanner}>
+      <div className={`${styles.sectionBanner} ${styles.resSectionBanner}`}>
         <BoostBanner />
       </div>
-      <div className={`${styles.sectionFeature} ${styles.sectionFeaturePadAdjustment}`}>
+      <div className={`${styles.sectionFeature} ${styles.sectionFeaturePadAdjustment} ${styles.resSectionFeature}`}>
         <UniqueFeatures />
       </div>
       <div className={styles.sectionPricing}>

@@ -37,7 +37,7 @@ const UniquePlans = () => {
         {UNIQUE_PLANS.length &&
           UNIQUE_PLANS.map((x) => (
             <>
-              <Col md="4">
+              <Col xl="4">
                 <div className={styles.wrapPricingCol}>
                   <div className={styles.wrapNameRow}>
                     <div className={styles.wrapNameNumber}>
